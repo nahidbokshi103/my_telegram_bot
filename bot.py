@@ -54,8 +54,8 @@ COUNTRIES_DATA = {
 "myanmar": {"name": "Myanmar", "emoji": "🇲🇲", "range": "95989XXX"},
 "madagascar": {"name": "Madagascar", "emoji": "🇲🇬", "range": "261349XXX"},
 "sierra": {"name": "Sierra Leone", "emoji": "🇸🇱", "range": "232751XXX"},
+"benin": {"name": "Benin", "emoji": "🇧🇯", "range": "22901XXX"},
 "CENTRAL AFRICAN REPUBLIC": {"name": "CENTRAL AFRICAN REPUBLIC", "emoji": "🇨🇫", "range": "23672XXX"},
-"benin": {"name": "Benin", "emoji": "🇧🇯", "range": "22901XXX"}
 }
 
 STRINGS = {
