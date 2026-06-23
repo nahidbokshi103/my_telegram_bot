@@ -50,7 +50,7 @@ COUNTRIES_DATA = {
 "guinea": {"name": "Guinea", "emoji": "🇬🇳", "range": "224655XXX"},
 "syria": {"name": "Syria", "emoji": "🇸🇾", "range": "963960XXX"},
 "togo": {"name": "Togo", "emoji": "🇹🇬", "range": "22895XXX"},
-"ivory": {"name": "Ivory Coast", "emoji": "🇨🇮", "range": "225071XXX"},
+"ivory": {"name": "Ivory Coast", "emoji": "🇨🇮", "range": "225078XXX"},
 "myanmar": {"name": "Myanmar", "emoji": "🇲🇲", "range": "95989XXX"},
 "madagascar": {"name": "Madagascar", "emoji": "🇲🇬", "range": "261349XXX"},
 "sierra": {"name": "Sierra Leone", "emoji": "🇸🇱", "range": "232751XXX"},
