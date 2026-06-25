@@ -47,7 +47,7 @@ APPS_DATA = {
 COUNTRIES_DATA = {
     "ghana": {"name": "Ghana", "emoji": "🇬🇭", "range": "23350XXX"},
 "mali": {"name": "Mali", "emoji": "🇲🇱", "range": "22358XXX"},
-"guinea": {"name": "Guinea", "emoji": "🇬🇳", "range": "224653XXX"},
+"guinea": {"name": "Guinea", "emoji": "🇬🇳", "range": "224654XXX"},
 "syria": {"name": "Syria", "emoji": "🇸🇾", "range": "963960XXX"},
 "togo": {"name": "Togo", "emoji": "🇹🇬", "range": "22895XXX"},
 "ivory": {"name": "Ivory Coast", "emoji": "🇨🇮", "range": "225078XXX"},
@@ -55,7 +55,7 @@ COUNTRIES_DATA = {
 "madagascar": {"name": "Madagascar", "emoji": "🇲🇬", "range": "261349XXX"},
 "sierra": {"name": "Sierra Leone", "emoji": "🇸🇱", "range": "232751XXX"},
 "benin": {"name": "Benin", "emoji": "🇧🇯", "range": "22901XXX"},
-"CENTRAL AFRICAN REPUBLIC": {"name": "CENTRAL AFRICAN REPUBLIC", "emoji": "🇨🇫", "range": "236726XXX"},
+"CENTRAL AFRICAN REPUBLIC": {"name": "CENTRAL AFRICAN REPUBLIC", "emoji": "🇨🇫", "range": "236728XXX"},
 }
 
 STRINGS = {
