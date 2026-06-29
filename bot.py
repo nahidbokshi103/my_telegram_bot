@@ -47,7 +47,7 @@ APPS_DATA = {
 COUNTRIES_DATA = {
     "ghana": {"name": "Ghana", "emoji": "🇬🇭", "range": "23350XXX"},
 "mali": {"name": "Mali", "emoji": "🇲🇱", "range": "22358XXX"},
-"guinea": {"name": "Guinea", "emoji": "🇬🇳", "range": "224654XXX"},
+"guinea": {"name": "Guinea", "emoji": "🇬🇳", "range": "224655XXX"},
 "syria": {"name": "Syria", "emoji": "🇸🇾", "range": "963960XXX"},
 "togo": {"name": "Togo", "emoji": "🇹🇬", "range": "22895XXX"},
 "ivory": {"name": "Ivory Coast", "emoji": "🇨🇮", "range": "225078XXX"},
