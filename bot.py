@@ -55,8 +55,8 @@ COUNTRIES_DATA = {
 "madagascar": {"name": "Madagascar", "emoji": "🇲🇬", "range": "261349XXX"},
 "sierra": {"name": "Sierra Leone", "emoji": "🇸🇱", "range": "232784XXX"},
 "benin": {"name": "Benin", "emoji": "🇧🇯", "range": "22901XXX"},
-"central african republic": {"name": "Central African Republic", "emoji": "🇨🇫", "range": "XXXXXXX"},
-"montenegro": {"name": "Montenegro", "emoji": "🇲🇪", "range": "382679XXXX"},
+"central african republic": {"name": "Central African Republic", "emoji": "🇨🇫", "range": "236728XXX"},
+"montenegro": {"name": "Montenegro", "emoji": "🇲🇪", "range": "382679XXX"},
 STRINGS = {
     "bn": {
         "welcome_combined": (
