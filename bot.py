@@ -231,6 +231,13 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
             user_states.pop(user_id, None)
             user_range = user_text.strip()
             status_msg = await update.message.reply_text(STRINGS["bn"]["searching_num"])
+
+            # নতুন যোগ করা কোড (ওয়েলকাম মেসেজ ডিলিট করার জন্য):
+        try:
+            await update.message.delete()
+        except Exception as e:
+            print(f"মেসেজ ডিলিট করতে সমস্যা হয়েছে: {e}")
+            
             try:
                 url = f"{BASE_URL}/v1/getnum"
                 async with httpx.AsyncClient() as client:
