@@ -245,15 +245,15 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         country_info = next((c for c in COUNTRIES_DATA.values() if c.get("range") == user_range), {"emoji": "🌍", "name": "Manual"})
 
                         # মেসেজ টেমপ্লেট
-msg_template = (
-    f"✨ {country_info['emoji']} *NAHID NUMBER PANNEL ALLOCATED* ✨\n"
-    "______________________________\n\n"
-    f"🌍 *Country:* {country_info['emoji']} {country_info['name']}\n"
-    f"🔢 *Numbers:*\n"
-    f"`{allocated_num}`\n" 
-    "______________________________\n\n"
-    "⌛ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*\n"
-    "(৩-৪ বার রিসেন্ড কোড করুন)"
+                        msg_template = (
+                            f"✨ {country_info['emoji']} *NAHID NUMBER PANNEL ALLOCATED* ✨\n"
+                            "______________________________\n\n"
+                            f"🌍 *Country:* {country_info['emoji']} {country_info['name']}\n"
+                            f"🔢 *Numbers:*\n"
+                            f"`{allocated_num}`\n" 
+                            "______________________________\n\n"
+                            "⌛ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*\n"
+                            "(৩-৪ বার রিসেন্ড কোড করুন)"
                         )
 
                         action_buttons = [
