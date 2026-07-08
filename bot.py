@@ -244,15 +244,16 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         # কান্ট্রি ডাটা খুঁজে বের করার লজিক
                         country_info = next((c for c in COUNTRIES_DATA.values() if c.get("range") == user_range), {"emoji": "🌍", "name": "Manual"})
 
-                        msg_template = (
+                        # মেসেজ টেমপ্লেট
+msg_template = (
     f"✨ {country_info['emoji']} *NAHID NUMBER PANNEL ALLOCATED* ✨\n"
-    f"______________________________\n\n"
+    "______________________________\n\n"
     f"🌍 *Country:* {country_info['emoji']} {country_info['name']}\n"
     f"🔢 *Numbers:*\n"
-    f"`{allocated_num}`\n"  # এখানে আপনার দুটি নাম্বার চলে আসবে
-    f"______________________________\n\n"
-    f"⌛ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*\n"
-    f"(৩-৪ বার রিসেন্ড কোড করুন)"
+    f"`{allocated_num}`\n" 
+    "______________________________\n\n"
+    "⌛ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*\n"
+    "(৩-৪ বার রিসেন্ড কোড করুন)"
                         )
 
                         action_buttons = [
