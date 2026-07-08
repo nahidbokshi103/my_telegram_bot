@@ -56,7 +56,7 @@ COUNTRIES_DATA = {
 "sierra": {"name": "Sierra Leone", "emoji": "🇸🇱", "range": "232767XXX"},
 "benin": {"name": "Benin", "emoji": "🇧🇯", "range": "22901XXX"},
 "central african republic": {"name": "Central African Republic", "emoji": "🇨🇫", "range": "236728XXX"},
-"russia": {"name": "Russia", "emoji": "🇷🇺", "range": "7909XXX"},
+"russia": {"name": "Russia", "emoji": "🇷🇺", "range": "7908XXX"},
 "montenegro": {"name": "Montenegro", "emoji": "🇲🇪", "range": "382677XXX"},
 "palestine": {"name": "Palestine", "emoji": "🇵🇸", "range": "97097256XXX"},
 }
@@ -245,12 +245,13 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         country_info = next((c for c in COUNTRIES_DATA.values() if c.get("range") == user_range), {"emoji": "🌍", "name": "Manual"})
 
                         msg_template = (
-                            f"✨ {country_info['emoji']} *NAHID NUMBER PANNEL ALLOCATED* ✨\n"
-                            f"━━━━━━━━━━━━━━━━━━\n"
-                            f"🌍 *Country:* {country_info['emoji']} {country_info['name']}\n"
-                            f"🔢 *Number:* `{allocated_num}`\n"
-                            f"━━━━━━━━━━━━━━━━━━\n"
-                            f"⏳ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*"
+    f"✨ {country_info['emoji']} *NAHID NUMBER PANNEL ALLOCATED* ✨\n"
+    f"-----------------------------\n"
+    f"🌍 *Country:* {country_info['emoji']} {country_info['name']}\n"
+    f"🔢 *Numbers:*\n"
+    f"{formatted_numbers}\n"  # এখানে দুটি নাম্বার একসাথে দেখাবে
+    f"-----------------------------\n"
+    f"⌛ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*"
                         )
 
                         action_buttons = [
