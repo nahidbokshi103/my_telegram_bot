@@ -11,7 +11,7 @@ if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 # ==================== কনফিগারেশন ====================
-TELEGRAM_BOT_TOKEN = '8699807890:AAEgxfORsRbsFcV2cmL0g69TvhaIsIKYcuw'  
+TELEGRAM_BOT_TOKEN = '8699807890:AAEgxfORsRbsFcV2cmL0g69TvhaIsIKYcuw'
 ZENEX_API_KEY = 'ZNX_E4TY657EJ6GTWJHML7IJZ6UV'                        
 BASE_URL = 'https://api.zenexnetwork.com' 
 
