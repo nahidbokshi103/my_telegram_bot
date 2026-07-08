@@ -246,12 +246,13 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
                         msg_template = (
     f"✨ {country_info['emoji']} *NAHID NUMBER PANNEL ALLOCATED* ✨\n"
-    f"-----------------------------\n"
+    f"______________________________\n\n"
     f"🌍 *Country:* {country_info['emoji']} {country_info['name']}\n"
     f"🔢 *Numbers:*\n"
-    f"{formatted_numbers}\n"  # এখানে দুটি নাম্বার একসাথে দেখাবে
-    f"-----------------------------\n"
-    f"⌛ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*"
+    f"`{allocated_num}`\n"  # এখানে আপনার দুটি নাম্বার চলে আসবে
+    f"______________________________\n\n"
+    f"⌛ *ওটিপির জন্য অপেক্ষা করা হচ্ছে...*\n"
+    f"(৩-৪ বার রিসেন্ড কোড করুন)"
                         )
 
                         action_buttons = [
