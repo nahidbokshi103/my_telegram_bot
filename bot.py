@@ -53,7 +53,7 @@ COUNTRIES_DATA = {
 "ivory": {"name": "Ivory Coast", "emoji": "🇨🇮", "range": "225078XXX"},
 "myanmar": {"name": "Myanmar", "emoji": "🇲🇲", "range": "95989XXX"},
 "madagascar": {"name": "Madagascar", "emoji": "🇲🇬", "range": "261349XXX"},
-"sierra": {"name": "Sierra Leone", "emoji": "🇸🇱", "range": "232723XXX"},
+"sierra": {"name": "Sierra Leone", "emoji": "🇸🇱", "range": "232765XXX"},
 "benin": {"name": "Benin", "emoji": "🇧🇯", "range": "22901XXX"},
 "central african republic": {"name": "Central African Republic", "emoji": "🇨🇫", "range": "236728XXX"},
 "russia": {"name": "Russia", "emoji": "🇷🇺", "range": "7908XXX"},
