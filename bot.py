@@ -57,7 +57,7 @@ COUNTRIES_DATA = {
 "benin": {"name": "Benin", "emoji": "🇧🇯", "range": "22901XXX"},
 "central african republic": {"name": "Central African Republic", "emoji": "🇨🇫", "range": "236728XXX"},
 "russia": {"name": "Russia", "emoji": "🇷🇺", "range": "7908XXX"},
-"montenegro": {"name": "Montenegro", "emoji": "🇲🇪", "range": "382677XXX"},
+"montenegro": {"name": "Montenegro", "emoji": "🇲🇪", "range": "382671XXX"},
 "palestine": {"name": "Palestine", "emoji": "🇵🇸", "range": "97097256XXX"},
 }
 
