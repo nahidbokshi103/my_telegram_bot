@@ -1,3 +1,5 @@
+from flask import Flask
+from threading import Thread
 import logging
 import httpx  
 import asyncio
@@ -683,3 +685,15 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "Bot is alive"
+
+def run():
+    app.run(host='0.0.0.0', port=10000)
+
+t = Thread(target=run)
+t.start()
